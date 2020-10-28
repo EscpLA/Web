@@ -1,0 +1,295 @@
+body {
+    background-color: white;
+	color: #333;
+	font-size: 17px;
+	font-weight: 400;
+	font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+	font-style: normal;
+}
+h1{
+	text-align: center;
+}
+.head{
+	display: flex;
+}
+.header{
+	margin-bottom: 0px;
+	background-color:#333;
+}
+.nav1 {
+    background-color:#333;
+    height: 44px;
+	color:#F5F5f7;
+	display: flex;
+	justify-content: space-around;
+	margin: 0 auto;
+}
+.nav2{
+	display: flex;
+	
+}
+.nav2 span{
+	flex:1;
+	display: flex;
+	justify-content: center;
+}
+
+.nav2 :nth-child(2){
+	flex:2;
+}
+span{
+	margin: auto;
+}
+button.nav{
+	padding:10px;
+	background-color: #333;
+	color:#f2f2f2;
+	font-family: 微软雅黑Light;
+}
+.dropdown{
+	position: relative;
+}
+.dropdown-content{
+	position: absolute;
+	display:none;
+	box-shadow:  0px 8px 16px 0px rgba(0,0,0,0.2);
+	width:100%;
+}
+.dropdown-content div{
+	padding-left: 30px;
+}
+.dropdown a{
+	color:white;
+	text-decoration: none;
+}
+.dropdown:hover .dropdown-content{
+	display: block;
+}
+.dropdown:hover .navMid,.navRight{
+	display: none;
+}
+.dropdown-content div{
+	background-color: #333;
+	color:white;
+	height:44px;
+	width:100%;
+}
+.head{
+	background-image:url(../iamges/hero-banner-baker-homepage.image.small_2x.jpg);
+	background-size: cover;
+	height:600px;
+	background-repeat: no-repeat;
+	display:flex;
+	justify-content: center;
+	align-items: center;
+}
+.headelement{
+	height:auto;
+	font-size: 30px;
+    line-height: 1.05;
+    font-weight: 100;
+	letter-spacing: .008em;
+	align-self: center;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+.headelement h1{
+	width:70%;
+	text-align: center;
+}
+.searchbox{
+	background-color: #fff;
+	padding:0 35 0 40;
+	width:70%;
+}
+input[type="text"]{
+	height: 46px;
+	size: 50px;
+	width: 100%;
+}
+
+.productrow{
+	margin:0 auto;
+	display:flex;
+	justify-content:space-between;
+}
+.balnktop{
+	height:50px;
+}
+.middle{
+	display:flex;
+	flex-wrap: wrap;
+	flex: 1;
+}
+.blanktop{
+	width:100%;
+	height:50px;
+}
+.meat{
+	display: flex;
+	justify-content: space-around;
+	flex:2;
+}
+.img{
+	display:flex;
+	justify-content: center;
+}
+.img1 img{
+	width:68px;
+	height:84px;
+}
+.meat p{
+	text-align: center;
+}
+.triple{
+	margin:80px 30px 80px 30px;
+	display:flex;
+}
+p{
+	text-align: center;
+}
+.combinition{
+	height:2000px;
+	display: flex;
+	flex-wrap: wrap;
+	align-content: space-around;
+	
+}
+.combinition div{
+	display:flex;
+	margin:0 auto;
+}
+.combinition h1{
+	font-size:40px ;
+}
+.combinition p{
+	font-size:22px ;
+}
+.combinition a{
+	font-size:22px ;
+}
+.third{
+	background-image: url(/iamges/psp-hero-banner-getsupport.image.small_2x.jpg);
+}
+.seventh{
+	display: flex;
+	flex-wrap: wrap;
+}
+.seventh h1{
+	text-align: center;
+	width:100%;
+}
+.link{
+	display: flex;
+	flex-wrap: wrap;
+}
+.link a{
+	display: block;
+}
+h2{
+	text-align: center;
+	font-size: 12px;
+    color: #333;
+    font-weight: 400;	
+}
+.fatherfoot{
+	background-color: #f2f2f2;
+}
+.foot{
+	margin:0 auto;
+	font-family: "SF Pro Text","Myriad Set Pro","SF Pro Icons","Apple Legacy Chevron","Helvetica Neue","Helvetica","Arial",sans-serif;
+	background-color: #f2f2f2;
+	font-size: 12px;
+}
+.footimg{
+	display: flex;
+	justify-content: center;
+}
+.footimg img{
+	width:32px;
+	height:32px;
+}
+ul{
+	list-style: none;
+	margin:0;
+	padding:0;
+}
+li{
+	
+}
+h4{
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+.footmiddle2{
+	display:flex;
+	justify-content: space-around;
+	height:auto;
+	align-content: stretch;
+}
+.footmiddle2 span{
+	margin:0;
+	padding:0;
+	line-height:25px;
+}
+.btm1{
+	margin-left:20px;
+	margin-right:20px;
+}
+.btm2,.btm3,.btm4,.btm5{
+	margin-left:20px;
+	margin-right:20px;
+}
+.footbottom{
+	display:flex;
+}
+.footbottom span{
+	white-space: 
+}
+.stc{
+	margin:0 0 50px 0;
+	padding-top:50px;	
+}
+.stc h2{
+	margin-bottom:50px;
+}
+.linkbottom {
+	display: flex;
+	justify-content: center;
+	margin-bottom: 50px;
+	margin-bottom: 50px;
+}
+.dropd1bt{
+	width:100%;
+	margin:5px 0 5px 0;
+	padding:10px;
+}
+.dropd1bt h5{
+	margin: 0;
+	padding:0;
+}
+.dropdowm1{
+	position: relative;
+	background-color: #f2f2f2;
+}
+.dropdown1-content{
+	position:absolute;
+	display: none;
+	background-color: #f2f2f2;
+	color:#555;	
+	width:100%;
+}
+.dropdown1-content a{
+	text-decoration: none;
+	display: block;
+	border:solid #f2f2f2;
+	color:#555;	
+	text-align: center;
+	margin:20px;
+	border: solid #f2f2f2;
+}
+.dropdown1:hover .dropdown1-content{
+	display: block;
+}

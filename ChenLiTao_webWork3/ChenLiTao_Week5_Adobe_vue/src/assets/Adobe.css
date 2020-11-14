@@ -1,0 +1,321 @@
+body{
+    position: relative;
+}
+*{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+a{
+    text-decoration: none;
+}
+.nav{
+    height: 60px;
+    display: flex;
+    align-items: center;
+}
+.navLeft{
+    flex: 1;
+    display: flex;
+    margin-left: 50px;
+}
+.navLeft img{
+    width: 24px;
+    height: 21.24px;
+}
+.navMiddle{
+    flex:1.5 ;
+}
+.navMiddleUl{
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+}
+.navMiddleUl li{
+    flex: 1 ;
+    color: #2c2c2c;
+    font-weight: 600;
+    font-size: 14px;
+    text-align: center;
+}
+.navMiddleUl a {
+    text-decoration: none;
+    color: #2c2c2c;
+}
+.arrow{
+    transform: rotate(45deg);
+}
+.navRight{
+    flex: 1;
+    display: flex;
+    flex-direction: row-reverse;
+}
+.navRight a{
+    text-decoration: none;
+    color: #2c2c2c;
+    font-family: adobe-clean,Source Sans Pro,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;
+    font-weight: 400;
+    margin-right: 100px;
+}
+.background{
+    background-image: url(../images/2.jpg);
+    height: 650px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.content{
+    position: absolute;
+    margin-top: 150px;
+    margin-left: 200px;
+}
+.contentFirst{
+    font-weight: 700;
+    font-family: adobe-clean-ux,adobe-clean,Source Sans Pro,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;
+    font-size: 2.625rem;
+    margin-bottom: 30px;
+}
+.contentSecond{
+    font-size: 1.125rem;
+    font-weight: 500;
+    font-family: adobe-clean-ux,adobe-clean,Source Sans Pro,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;
+    margin-bottom: 40px;
+}
+.learnmore{
+    padding : 5px 20px 5px 20px;
+    border-radius: 20%;
+    background-color: transparent;
+    border-color: #505050;
+    color: #505050;
+    font-size : 14px;
+    font-weight: 700;
+    font-family: adobe-clean-ux,adobe-clean,Source Sans Pro,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;
+}
+.Trilogy{
+    width: 90%;
+    margin:  0 auto;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+    margin-bottom: 100px;
+}
+.Trilogy a{
+    width: 31%;
+    height: 525px;
+    text-decoration: none;
+}
+.TrilogyFirst{
+    background-image: url(../images/3.jpg);
+    background-repeat: no-repeat;
+}
+.TrilogySecond{
+    background-image: url(../images/4.jpg);
+    background-repeat: no-repeat;
+}
+.TrilogyThird{
+    background-image: url(../images/5.jpg);
+    background-repeat: no-repeat;
+}
+.triFt{
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 1.5rem;
+    font-family: adobe-clean,adobe-clean-han-simplified-c,PingFang SC,SimSun,Heiti SC Light,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;
+    line-height: 1.75rem;
+}
+.triSec{
+    color: #ffffff;
+    font-weight: 500;
+    font-size: 1.125rem;
+    font-family: adobe-clean,adobe-clean-han-simplified-c,PingFang SC,SimSun,Heiti SC Light,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;
+    line-height: 1.75rem;
+}
+.triTrd{
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 14px;
+    font-family: adobe-clean,adobe-clean-han-simplified-c,PingFang SC,SimSun,Heiti SC Light,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;
+    line-height: 1.5;
+}
+.TriCon{
+    position: absolute;
+    margin-top: 4%;
+    margin-left: 4%;
+}
+.footFather{
+    background-color: #fafafa;
+}
+.foot{
+    background-color: #fafafa;
+    width:90%;
+    margin: 0 auto;
+}
+.footSection1{
+    display: flex;
+    border-bottom: solid 1px #999999;;
+}
+.heads{
+    font-weight: 600;
+    font-size: 15px;
+    color: #4b4b4b;
+    padding-bottom: 30px;
+}
+.lis{
+    font-weight: 400;
+    font-size: 12px;
+    color: #4b4b4b;
+    line-height: 1.4;
+}
+.foot a {
+    color: #4b4b4b;
+}
+.products{
+    flex:1.1;
+    border-right: solid 1px #999999;
+}
+.blogs{
+    flex:2;
+    display: flex;
+    flex-direction: column;
+    border-right: solid 1px #999999;
+}
+.blogs ul{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.blogs li{
+    width: 45%;
+}
+.blgtop{
+    border-bottom: solid 1px #999999;
+    padding-bottom: 40px;
+}
+.blogs img{
+    width: 30px;
+    height: 30px;
+    margin: 5px;
+}
+.blgImg{
+    margin-left: 25px !important;
+}
+.support{
+    flex:1;
+    border-right: solid 1px #999999;
+}
+.Adobe{
+    flex:1;
+}
+.footSection2{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    border-bottom: solid 1px #999999;
+}
+.s1Content{
+    position: relative;
+    margin-top: 50px;
+    margin-left: 30px;
+}
+.s2ContentF{
+    display: flex;
+}
+.s2ContentS{
+    padding:25px;
+}
+.s2ContentS a{
+    display: flex;
+}
+.s2ContentS img{
+    width: 25px;
+    height: 31.23px;
+    margin-right: 30px;
+}
+.footSection3{
+    display: flex;
+    padding: 10px;
+    padding: 20px;
+}
+.s3First{
+    flex: 0.25;
+}
+.s3Second{
+    flex: 0.5;
+    font-size: 12px;
+    font-weight: 300;
+}
+.s3Third{
+    flex: 1;
+    font-size: 12px;
+    font-weight: 400;
+}
+.s3Third ul{
+    display: flex;
+}
+.s3Forth{
+    flex: 0.3;
+    font-size: 12px;
+    font-weight: 300;
+}
+.s3Fifth{
+    flex: 0.3;
+    font-size: 12px;
+    font-weight: 300;
+}
+.s2Text{
+    font-size: 12px;
+    font-weight: 400;
+}
+.menu{
+    background-color: #fff;
+    position: absolute;
+    left: 461.58px;
+    top: 60px;
+    z-index: 10;
+    display: flex;
+    padding: 35px;
+    width: 670px;
+    border-top: solid 1px #f3f3f3;
+    
+}
+.menuContentHead{
+    font-size: 16px;
+    font-weight: 300;
+    color: #767676;
+}
+.menuContentLiHead{
+    font-size: 14px;
+    font-weight: 400;
+    color: #2c2c2c;
+    margin-bottom: 10px;
+}
+.menuContentLiText{
+    font-size: 13px;
+    font-weight: 400;
+    color: #656565;
+    margin-bottom: 10px;
+}
+.menuBtn{
+    border-radius: 35%;
+    background-color: #1473E6;
+    color: #ffffff;
+    font-size: 14PX;
+    font-weight: 700;
+    padding: 10px;
+}
+.menuContent{
+    margin-bottom: 20px;
+}
+.menu1_1{
+    flex:1.5;
+    border-right: solid 1px #f3f3f3;
+}
+.menu1_2{
+    flex:1;
+    border-right: solid 1px #f3f3f3;
+    padding-left: 20px;
+}
+.menu1_3{
+    flex:1;
+    padding-left: 20px;
+}
